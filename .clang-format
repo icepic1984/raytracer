@@ -2,7 +2,9 @@ Language: Cpp
 
 AllowShortFunctionsOnASingleLine: false
 
-bAlignAfterOpenBracket: DontAlign
+AlignAfterOpenBracket: DontAlign
+
+AlwaysBreakTemplateDeclarations: true
 
 AlignConsecutiveAssignments: true
 
