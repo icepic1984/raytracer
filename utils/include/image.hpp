@@ -3,7 +3,7 @@
 #include <vector>
 #include <boost/filesystem.hpp>
 
-namespace ray {
+namespace utils {
 
 struct color {
     uint8_t r;

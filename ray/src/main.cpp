@@ -1,6 +1,6 @@
-#include "image.hpp"
+#include <image.hpp>
 
-using namespace ray;
+using namespace utils;
 
 int main(int argc, char *argv[])
 {

@@ -1,6 +1,6 @@
 #include "image.hpp"
 
-namespace ray {
+namespace utils {
 
 image::image(int width, int height)
     : m_width(width), m_height(height), m_data(width * height, color{0, 0, 0})
@@ -62,4 +62,4 @@ void write(const boost::filesystem::path& path, const image& img)
 
 
 
-} // namespace ray
+} // namespace utils
